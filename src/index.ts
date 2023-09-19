@@ -12,4 +12,9 @@ const res = await model.call(
   "What's a good idea for an application to build with GPT-3?"
 );
 
-console.log(res);
+
+const res2 = await model.call(
+  "What's a good idea for an application to build with GPT-3?"
+);
+
+console.log(res, res2);
